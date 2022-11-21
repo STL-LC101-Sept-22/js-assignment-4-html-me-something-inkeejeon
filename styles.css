@@ -1,1 +1,83 @@
-/* Write your CSS here! */
+body {
+	margin: 8px;
+    display: block;
+    width: 100%;
+	max-width: 1024px;
+	background-color: #3392ff;
+	font-size: 60%;
+}
+
+header, main, footer, nav {
+	background-color: #3392ff;
+	font-size: 1.5em;
+}
+
+#mainHeading {
+    color: red;
+}
+.funParagraph {
+    color: green;
+}
+
+#testP {
+    color: green;
+}
+
+header {
+	padding: 0em;
+    text-align: center;
+    font-size: 3em;
+    font-family: sans-serif;
+}
+
+nav ul {
+	text-align: center;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 1em;
+	font-size: 1.5em;
+}
+
+section {
+    margin: 2em;
+}
+
+section:first-child {
+	margin-top: 0;
+}
+
+section:last-child {
+	margin-bottom: 0;
+}
+
+h2 {
+    padding: 0em;
+}
+
+p {
+	padding: 0.5em;
+    font-size: 1.2em;
+}
+
+img {
+	width: 100%;
+	max-width: 100%;
+}
+
+figure {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+figcaption {
+	font-style: italic;
+}
+
+footer {
+	text-align: Left;
+	padding: 2em;
+}
