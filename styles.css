@@ -1,5 +1,7 @@
 body {
-	width: 100%;
+	margin: 8px;
+    display: block;
+    width: 100%;
 	max-width: 1024px;
 	background-color: #3392ff;
 	font-size: 60%;
@@ -10,15 +12,14 @@ header, main, footer, nav {
 	font-size: 1.5em;
 }
 
-p {
-    margin: 8px;
-    display: block
-}
-
 #mainHeading {
     color: red;
 }
 .funParagraph {
+    color: green;
+}
+
+#testP {
     color: green;
 }
 
